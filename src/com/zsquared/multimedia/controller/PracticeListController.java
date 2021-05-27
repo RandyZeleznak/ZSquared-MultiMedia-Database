@@ -1,4 +1,4 @@
-package com.zsquared.multimedia.mvc;
+package com.zsquared.multimedia.controller;
 
 import org.springframework.stereotype.Controller;
 

@@ -10,7 +10,7 @@
 <a href = "hello/showForm">Practice List</a>
 <br><br>
 
-<a href = "showCDList">CD Search</a>
+<a href = "processCDList">CD List</a>
 <br><br>
 
 <a href = "customer/showForm">CD Add</a>
