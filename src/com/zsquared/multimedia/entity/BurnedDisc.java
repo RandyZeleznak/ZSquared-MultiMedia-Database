@@ -21,13 +21,10 @@ public class BurnedDisc {
 	
 	@Column(name="artist")
 	String artist;
-	
-	
 
 	public BurnedDisc() {
 		
 	}
-
 	
 
 	public int getId() {

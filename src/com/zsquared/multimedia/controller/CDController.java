@@ -27,4 +27,11 @@ public class CDController {
 		theModel.addAttribute("burnedDiscs", theDiscs);
 		return "list-burneddiscs";
 	}
+	
+	@RequestMapping("/addToCDList")
+	public String addToCDList(Model theModel) {
+		List<BurnedDisc> theDiscs = burnedDiscDAO.getBurnedDiscs();
+		theModel.addAttribute("burnedDiscs", theDiscs);
+		return "add-to-discs";
+	}
 }
